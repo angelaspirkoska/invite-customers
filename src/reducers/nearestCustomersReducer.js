@@ -26,7 +26,7 @@ export default function (state = initialState, action) {
       //validate first point - office location
       if (!validatePoint(officePoint)) {
         //log error on some external error service and return empty list
-        return nearestCustomers;
+        return state;
       }
 
       //find nearest customers
@@ -38,13 +38,12 @@ export default function (state = initialState, action) {
 
         if (!validatePoint(customerPoint)) {
           //log error on some external error service and do not calculate this customer location
-          return;
+          return state;
         }
         //calculate distance from office point for each customer in the customes location list
         let distance = calcalculateGreatCircleDistance(officePoint, customerPoint);
         if (distance < withinKilometars) {
-          let roundDistance = `${_.round(distance)} km`;
-          nearestCustomers.push({ ...customer, distance: roundDistance });
+          nearestCustomers.push({ ...customer, distance });
         }
       });
       return _.orderBy(nearestCustomers, "distance");

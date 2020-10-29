@@ -18,10 +18,10 @@ class NearestCustomers extends Component {
   renderNearestCustomers() {
     return _.map(this.props.nearestCustomers, (customer, i) => {
       return (
-        <tr key={i} data-test-id="table-row">
+        <tr key={i}>
           <td>{customer.user_id}</td>
           <td>{customer.name}</td>
-          <td>{customer.distance}</td>
+          <td>{`${_.round(customer.distance)} km`}</td>
         </tr>
       );
     });

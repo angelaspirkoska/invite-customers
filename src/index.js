@@ -6,7 +6,7 @@ import thunk from "redux-thunk";
 import { composeWithDevTools } from "redux-devtools-extension/developmentOnly";
 
 import App from "./components/app/App";
-import reducers from "./reducers/reducers";
+import reducers from "./reducers";
 
 import "./css/index.css";
 
