@@ -1,3 +1,5 @@
+# Invite Customers App
+
 GitHub: https://github.com/angelaspirkoska/invite-customers.git
 
 System requirements: 1. Node 8.16.0 or Node 10.16.0 or later version install on your local pc (https://nodejs.org/en/download/) 2. Npm - when you download Node.js, you automatically get npm installed on your pc 3. Browser - recommended Google Chrome
