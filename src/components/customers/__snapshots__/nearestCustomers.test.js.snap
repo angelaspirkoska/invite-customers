@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders nearest customers component correctly  should render with given state from Redux store 1`] = `
+Array [
+  <p
+    className="title"
+  >
+    Nearest customers
+  </p>,
+  <table>
+    <thead>
+      <tr>
+        <th>
+          ID
+        </th>
+        <th>
+          Name
+        </th>
+        <th>
+          Distance from office
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          4
+        </td>
+        <td>
+          Ian Kehoe
+        </td>
+        <td>
+          11 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          5
+        </td>
+        <td>
+          Nora Dempsey
+        </td>
+        <td>
+          23 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          6
+        </td>
+        <td>
+          Theresa Enright
+        </td>
+        <td>
+          24 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          11
+        </td>
+        <td>
+          Richard Finnegan
+        </td>
+        <td>
+          38 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          39
+        </td>
+        <td>
+          Lisa Ahearn
+        </td>
+        <td>
+          38 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          12
+        </td>
+        <td>
+          Christina McArdle
+        </td>
+        <td>
+          42 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          31
+        </td>
+        <td>
+          Alan Behan
+        </td>
+        <td>
+          44 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          15
+        </td>
+        <td>
+          Michael Ahearn
+        </td>
+        <td>
+          44 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          13
+        </td>
+        <td>
+          Olive Ahearn
+        </td>
+        <td>
+          62 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          29
+        </td>
+        <td>
+          Oliver Ahearn
+        </td>
+        <td>
+          72 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          30
+        </td>
+        <td>
+          Nick Enright
+        </td>
+        <td>
+          83 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          23
+        </td>
+        <td>
+          Eoin Gallagher
+        </td>
+        <td>
+          83 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          8
+        </td>
+        <td>
+          Eoin Ahearn
+        </td>
+        <td>
+          84 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          24
+        </td>
+        <td>
+          Rose Enright
+        </td>
+        <td>
+          89 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          17
+        </td>
+        <td>
+          Patricia Cahill
+        </td>
+        <td>
+          96 km
+        </td>
+      </tr>
+      <tr
+        data-test-id="table-row"
+      >
+        <td>
+          26
+        </td>
+        <td>
+          Stephen McArdle
+        </td>
+        <td>
+          99 km
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+  <div
+    className="button-container"
+  >
+    <button
+      className="button"
+      data-testid="button"
+      onClick={[Function]}
+    >
+      Invite customers
+    </button>
+  </div>,
+]
+`;

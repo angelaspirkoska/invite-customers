@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logotype-transparent-white.svg"
+    />
+  </div>
+  <div
+    className="map"
+  >
+    <Error>
+      <CustomersMap />
+    </Error>
+  </div>
+  <div
+    className="table"
+  >
+    <Error>
+      <Connect(NearestCustomers) />
+    </Error>
+  </div>
+</div>
+`;

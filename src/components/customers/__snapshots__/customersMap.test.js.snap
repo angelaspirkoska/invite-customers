@@ -1,0 +1,504 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders customer map component correctly 1`] = `
+<Fragment>
+  <Paragraph
+    className="title"
+    text="Customers location"
+  />
+  <Map
+    center={
+      Array [
+        "53.339428",
+        "-6.257664",
+      ]
+    }
+    zoom={7}
+  >
+    <ForwardRef(Leaflet(TileLayer))
+      attribution="&copy <a href=\\"http://osm.org/copyright\\">OpenStreetMap</a> contributors"
+      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+    />
+    <ForwardRef(Leaflet(Marker))
+      key="0"
+      position={
+        Array [
+          "52.986375",
+          "-6.043701",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          12-Christina McArdle
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="1"
+      position={
+        Array [
+          "51.92893",
+          "-10.27699",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          1-Alice Cahill
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="2"
+      position={
+        Array [
+          "51.8856167",
+          "-10.4240951",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          2-Ian McArdle
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="3"
+      position={
+        Array [
+          "52.3191841",
+          "-8.5072391",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          3-Jack Enright
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="4"
+      position={
+        Array [
+          "53.807778",
+          "-7.714444",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          28-Charlie Halligan
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="5"
+      position={
+        Array [
+          "53.4692815",
+          "-9.436036",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          7-Frank Kehoe
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="6"
+      position={
+        Array [
+          "54.0894797",
+          "-6.18671",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          8-Eoin Ahearn
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="7"
+      position={
+        Array [
+          "53.038056",
+          "-7.653889",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          26-Stephen McArdle
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="8"
+      position={
+        Array [
+          "54.1225",
+          "-8.143333",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          27-Enid Gallagher
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="9"
+      position={
+        Array [
+          "53.1229599",
+          "-6.2705202",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          6-Theresa Enright
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="10"
+      position={
+        Array [
+          "52.2559432",
+          "-7.1048927",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          9-Jack Dempsey
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="11"
+      position={
+        Array [
+          "52.240382",
+          "-6.972413",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          10-Georgina Gallagher
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="12"
+      position={
+        Array [
+          "53.2451022",
+          "-6.238335",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          4-Ian Kehoe
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="13"
+      position={
+        Array [
+          "53.1302756",
+          "-6.2397222",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          5-Nora Dempsey
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="14"
+      position={
+        Array [
+          "53.008769",
+          "-6.1056711",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          11-Richard Finnegan
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="15"
+      position={
+        Array [
+          "53.1489345",
+          "-6.8422408",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          31-Alan Behan
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="16"
+      position={
+        Array [
+          "53",
+          "-7",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          13-Olive Ahearn
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="17"
+      position={
+        Array [
+          "51.999447",
+          "-9.742744",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          14-Helen Cahill
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="18"
+      position={
+        Array [
+          "52.966",
+          "-6.463",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          15-Michael Ahearn
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="19"
+      position={
+        Array [
+          "52.366037",
+          "-8.179118",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          16-Ian Larkin
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="20"
+      position={
+        Array [
+          "54.180238",
+          "-5.920898",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          17-Patricia Cahill
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="21"
+      position={
+        Array [
+          "53.0033946",
+          "-6.3877505",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          39-Lisa Ahearn
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="22"
+      position={
+        Array [
+          "52.228056",
+          "-7.915833",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          18-Bob Larkin
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="23"
+      position={
+        Array [
+          "54.133333",
+          "-6.433333",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          24-Rose Enright
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="24"
+      position={
+        Array [
+          "55.033",
+          "-8.112",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          19-Enid Cahill
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="25"
+      position={
+        Array [
+          "53.521111",
+          "-9.831111",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          20-Enid Enright
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="26"
+      position={
+        Array [
+          "51.802",
+          "-9.442",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          21-David Ahearn
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="27"
+      position={
+        Array [
+          "54.374208",
+          "-8.371639",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          22-Charlie McArdle
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="28"
+      position={
+        Array [
+          "53.74452",
+          "-7.11167",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          29-Oliver Ahearn
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="29"
+      position={
+        Array [
+          "53.761389",
+          "-7.2875",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          30-Nick Enright
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="30"
+      position={
+        Array [
+          "54.080556",
+          "-6.361944",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          23-Eoin Gallagher
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      key="31"
+      position={
+        Array [
+          "52.833502",
+          "-8.522366",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Popup))>
+        <p>
+          25-David Behan
+        </p>
+      </ForwardRef(Leaflet(Popup))>
+    </ForwardRef(Leaflet(Marker))>
+  </Map>
+</Fragment>
+`;
