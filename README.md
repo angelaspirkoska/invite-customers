@@ -1,5 +1,7 @@
 # Invite Customers App
 
+## [Demo Version](https://invite-customers-angela.netlify.app/)
+
 GitHub: https://github.com/angelaspirkoska/invite-customers.git
 
 System requirements: 1. Node 8.16.0 or Node 10.16.0 or later version install on your local pc (https://nodejs.org/en/download/) 2. Npm - when you download Node.js, you automatically get npm installed on your pc 3. Browser - recommended Google Chrome
@@ -31,3 +33,7 @@ Launches the test runner in the interactive watch mode.<br />
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
+
+### Continuous Deployment Netlify
+
+Push webhook to automatically build and deploy code once it's merged on master branch.
